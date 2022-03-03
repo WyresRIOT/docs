@@ -9,6 +9,8 @@ Docs for the porting of Wyres boards on RIOT
 
 ## Caractéristiques des 2 cartes
 
+![Boards](images/wyres-boards.jpg)
+
 ### WPROTO
 https://github.com/wyres/mynewt-wproto-bsp
 
