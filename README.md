@@ -7,7 +7,7 @@ Docs for the porting of Wyres boards on RIOT
 * https://github.com/wyres/mynewt-generic-app 
 * Application pour les cages à marmotte https://github.com/wyres/mynewt_app_wproto_marmotte 
 
-## Caractéristiques
+## Caractéristiques des 2 cartes
 
 ### WPROTO
 https://github.com/wyres/mynewt-wproto-bsp
@@ -76,5 +76,22 @@ https://github.com/wyres/mynewt-wproto-bsp
     160Kb x 1 : main application image slot
     32Kb x 1 : FOTA application slot
 
+## RIOT Drivers
 
+* https://github.com/RIOT-OS/RIOT/tree/master/drivers/mpl3115a2
+* https://github.com/RIOT-OS/RIOT/tree/master/drivers/mma7660 
+* Accelerometer : ST LIS2DE12 https://github.com/RIOT-OS/RIOT/tree/master/drivers/lis2dh12 
+* Altimeter : ST LPS22HB https://github.com/RIOT-OS/RIOT/tree/master/drivers/lpsxxx 
+
+## Portage des cartes
+Lire Portage de la board (et surtout Boards outside of RIOTBASE)
+https://doc.riot-os.org/porting-boards.html 
+
+## WPROTO
+
+[Repository](https://github.com/WyresRIOT/wyres_proto_rev1a)
+
+## WBASE_V2
+
+[Repository](https://github.com/WyresRIOT/wyres_wbase_v2)
 
